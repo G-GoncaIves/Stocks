@@ -40,6 +40,7 @@ api = "YOUR_ALPHA_VANTAGE_API_KEY_HERE"
 ## Initialize the database connection
 
 api_key = "YOUR_API_KEY"
+
 stock_db = Database(api_key)
 
 ## Define symbols to track
