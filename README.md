@@ -31,12 +31,14 @@ pip install pandas requests sqlite3
 
 ### 1. Setup Your API Key
 
-Replace the placeholder API key in `main.py`:
+Replace the placeholder API key in 'main.py':
+
 api = "YOUR_ALPHA_VANTAGE_API_KEY_HERE"
 
 
 ### 2. Basic Usage
 ## Initialize the database connection
+
 api_key = "YOUR_API_KEY"
 stock_db = Database(api_key)
 
